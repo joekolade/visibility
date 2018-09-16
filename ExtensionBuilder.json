@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "FSC visibility helper tool for content elements.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "visibility",
+        "name": "FSC Visbility",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Schaefer - B\u00fcro f\u00fcr Webentwicklung",
+                "email": "j.schaefer@schaefer-webentwicklung.de",
+                "name": "Joe Sch\u00e4fer",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Joekolade"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-09-16 10:29",
+        "extension_builder_version": "8.10.2",
+        "be_user": "Joe Sch\u00e4fer (3)"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "joekolade/visibility",
+    "type": "typo3-cms-extension",
+    "description": "FSC visibility helper tool for content elements.",
+    "authors": [
+        {
+            "name": "Joe Sch\u00e4fer",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joekolade\\Visibility\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joekolade\\Visibility\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "visibility": "self.version",
+        "typo3-ter/visibility": "self.version"
+    }
+}
