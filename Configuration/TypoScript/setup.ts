@@ -1,0 +1,1 @@
+lib.contentElement.layoutRootPaths.200 = EXT:visibility/Resources/Private/Layouts
