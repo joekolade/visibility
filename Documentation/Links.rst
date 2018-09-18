@@ -12,13 +12,13 @@ Links
 -----
 
 :TER:
-	https://typo3.org/extensions/repository/view/<extension key>
-
-:Bug Tracker:
-	https://forge.typo3.org/projects/extension-<extension key>/issues
+	https://typo3.org/extensions/repository/view/visibility
 
 :Git Repository:
-	https://github.com/<username>/<extension key>
+	https://github.com/joekolade/visibility
+
+:Packagist:
+	https://packagist.org/packages/joekolade/visibility
 
 :Contact:
-	`@<username> <https://twitter.com/your-username>`__
+	`@joekolade <https://twitter.com/joekolade>`

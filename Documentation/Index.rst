@@ -54,11 +54,7 @@ FSC Visbility
 	:titlesonly:
 
 	Introduction/Index
-	User/Index
 	Administrator/Index
 	Configuration/Index
-	Developer/Index
-	KnownProblems/Index
 	ToDoList/Index
-	ChangeLog/Index
 	Links
