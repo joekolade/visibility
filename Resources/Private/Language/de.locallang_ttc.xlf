@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2018-08-22T11:55:11Z" product-name="visibility">
+        <header/>
+        <body>
+            <trans-unit id="visibility_formlabel">
+                <source>Visibility</source>
+                <target>Sichtbarkeit</target>
+            </trans-unit>
+            <trans-unit id="visibilityxs_formlabel">
+                <source>Visible xs</source>
+                <target>Breakpoint XS (und kleiner)</target>
+            </trans-unit>
+            <trans-unit id="visibilitysm_formlabel">
+                <source>Visible sm</source>
+                <target>Breakpoint SM (und kleiner)</target>
+            </trans-unit>
+            <trans-unit id="visibilitymd_formlabel">
+                <source>Visible md</source>
+                <target>Breakpoint MD (und kleiner)</target>
+            </trans-unit>
+            <trans-unit id="visibilitylg_formlabel">
+                <source>Visible lg</source>
+                <target>Breakpoint LG (und kleiner)</target>
+            </trans-unit>
+            <trans-unit id="visibility_val">
+                <source>show</source>
+                <source>sichtbar</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
