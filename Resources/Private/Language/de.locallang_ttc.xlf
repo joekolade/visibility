@@ -25,7 +25,7 @@
             </trans-unit>
             <trans-unit id="visibility_val">
                 <source>show</source>
-                <source>sichtbar</source>
+                <target>sichtbar</target>
             </trans-unit>
         </body>
     </file>
