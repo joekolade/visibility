@@ -1,13 +1,14 @@
 {
     "name": "joekolade/visibility",
     "type": "typo3-cms-extension",
-    "description": 'FSC responsive visibility helper tool for content elements.',
+    "description": "FSC responsive visibility helper tool for content elements.",
     "authors": [
         {
             "name": "Joe Sch\u00e4fer",
             "role": "Developer"
         }
     ],
+    "license": "MIT",
     "require": {
         "typo3/cms-core": "^8.7.1"
     },
