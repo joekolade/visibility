@@ -1,7 +1,7 @@
 {
     "name": "joekolade/visibility",
     "type": "typo3-cms-extension",
-    "description": "FSC visibility helper tool for content elements.",
+    "description": 'FSC responsive visibility helper tool for content elements.',
     "authors": [
         {
             "name": "Joe Sch\u00e4fer",
