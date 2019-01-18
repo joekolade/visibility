@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'FSC Visbility',
-    'description' => 'FSC visibility helper tool for content elements.',
+    'description' => 'FSC responsive visibility helper tool for content elements.',
     'category' => 'plugin',
     'author' => 'Joe Schäfer',
     'author_email' => 'j.schaefer@schaefer-webentwicklung.de',
@@ -20,7 +20,7 @@ $EM_CONF[$_EXTKEY] = [
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.2.0',
+    'version' => '1.2.1',
     'constraints' => [
         'depends' => [
             'typo3' => '8.7.0-8.7.99',
