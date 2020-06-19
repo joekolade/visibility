@@ -18,12 +18,6 @@
         "psr-4": {
             "Joekolade\\Visibility\\": "Classes"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Joekolade\\Visibility\\Tests\\": "Tests"
-        }
-    },
     "replace": {
         "visibility": "self.version",
         "typo3-ter/visibility": "self.version"

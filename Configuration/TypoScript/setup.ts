@@ -9,3 +9,33 @@ lib.gridelements.defaultGridSetup {
 page.includeCSS {
     tx_visibility = EXT:visibility/Resources/Public/Styles/tx_visibility.css
 }
+
+visibility_css = PAGE
+visibility_css {
+  typeNum = {$plugin.tx_visibility.settings.ajaxpagetype}
+
+  config {
+    disableAllHeaderCode = 1
+    xhtml_cleaning = 0
+    admPanel = 0
+    additionalHeaders = Content-type: text/css
+    no_cache = 1
+  }
+
+  10 = USER
+  10 {
+    userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+    extensionName = Visibility
+    pluginName = ###list###
+    vendorName = Joekolade
+    controller = ###Controller###
+    switchableControllerActions {
+      ###Controller### {
+      1 = ###action###
+    }
+  }
+
+  view < plugin.tx_visibility.view
+  persistence < plugin.tx_visibility.persistence
+  settings < plugin.tx_visibility.settings
+}
