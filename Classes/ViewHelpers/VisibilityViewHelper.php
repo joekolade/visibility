@@ -40,6 +40,8 @@ class VisibilityViewHelper extends AbstractViewHelper
       array_reverse($outputClass);
     }
 
+    $visibleIndex = 0;
+
     // modifier for the last breakpoint
     $lastBreakPointVisibility = 1;
     foreach ($tsSettings['breakpoints.'] as $breakpoint => $class_suffix) {
@@ -48,6 +50,7 @@ class VisibilityViewHelper extends AbstractViewHelper
       }
 
       $visibility = $data['visibility' . $breakpoint];
+      $visibleIndex += $visibility;
 
       if ($visibility == $lastBreakPointVisibility) {
         continue;
@@ -62,6 +65,11 @@ class VisibilityViewHelper extends AbstractViewHelper
       }
       $lastBreakPointVisibility = $visibility;
       $outputClass = ' ' . trim($outputClass);
+    }
+
+    // none visibility options are ticked
+    if($visibleIndex == 0){
+      return '';
     }
 
     return $outputClass;
