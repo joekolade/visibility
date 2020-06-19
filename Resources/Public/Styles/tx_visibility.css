@@ -1,41 +1,47 @@
-div[data-tx_visibility] {
-    display: block;
-}
-div[data-tx_visibility^="0"],
-div[data-tx_visibility="0 0 0 0"] {
-    display: none;
+.d-none {
+  display: none;
 }
 
-@media screen and (min-width: 576px){
-    div[data-tx_visibility^="1"] {
-        display: block;
-    }
+.d-block {
+  display: block;
 }
-@media screen and (min-width: 768px){
-    div[data-tx_visibility^="1 0"] {
-        display: none;
-    }
-    div[data-tx_visibility^="0 1"],
-    div[data-tx_visibility^="1 1"] {
-        display: block;
-    }
+
+@media (min-width: 576px) {
+  .d-sm-none {
+    display: none;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
 }
-@media screen and (min-width: 992px){
-    div[data-tx_visibility^="0 1 0"],
-    div[data-tx_visibility^="1 1 0"] {
-        display: none;
-    }
-    div[data-tx_visibility^="0 0 1"],
-    div[data-tx_visibility^="0 1 1"],
-    div[data-tx_visibility^="1 1 1"] {
-        display: block;
-    }
+
+@media (min-width: 768px) {
+  .d-md-none {
+    display: none;
+  }
+
+  .d-md-block {
+    display: block;
+  }
 }
-@media screen and (min-width: 1200px){
-    div[data-tx_visibility$="0"] {
-        display: none;
-    }
-    div[data-tx_visibility$="1"] {
-        display: block;
-    }
+
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .d-xl-none {
+    display: none;
+  }
+
+  .d-xl-block {
+    display: block;
+  }
 }
