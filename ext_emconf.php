@@ -11,21 +11,21 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'FSC Visbility',
-    'description' => 'FSC responsive visibility helper tool for content elements.',
-    'category' => 'plugin',
-    'author' => 'Joe Schäfer',
-    'author_email' => 'joe@joekola.de',
-    'state' => 'beta',
-    'uploadfolder' => 0,
-    'createDirs' => '',
-    'clearCacheOnLoad' => 0,
-    'version' => '1.2.3',
-    'constraints' => [
-        'depends' => [
-            'typo3' => '8.7.0-8.7.99',
-        ],
-        'conflicts' => [],
-        'suggests' => [],
+  'title' => 'FSC Visbility',
+  'description' => 'FSC responsive visibility helper tool for content elements.',
+  'category' => 'plugin',
+  'author' => 'Joe Schäfer',
+  'author_email' => 'joe@joekola.de',
+  'state' => 'beta',
+  'uploadfolder' => 0,
+  'createDirs' => '',
+  'clearCacheOnLoad' => 0,
+  'version' => '1.2.3',
+  'constraints' => [
+    'depends' => [
+      'typo3' => '8.7.0-10.4.99',
     ],
+    'conflicts' => [],
+    'suggests' => [],
+  ],
 ];

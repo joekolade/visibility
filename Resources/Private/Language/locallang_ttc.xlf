@@ -18,6 +18,9 @@
             <trans-unit id="visibilitylg_formlabel">
                 <source>Visible lg</source>
             </trans-unit>
+            <trans-unit id="visibilityxl_formlabel">
+                <source>Visible xl</source>
+            </trans-unit>
             <trans-unit id="visibility_val">
                 <source>show</source>
             </trans-unit>

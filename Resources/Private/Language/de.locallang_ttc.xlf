@@ -23,6 +23,10 @@
                 <source>Visible lg</source>
                 <target>Breakpoint LG (und kleiner)</target>
             </trans-unit>
+            <trans-unit id="visibilityxl_formlabel">
+                <source>Visible xl</source>
+                <target>Breakpoint XL (und kleiner)</target>
+            </trans-unit>
             <trans-unit id="visibility_val">
                 <source>show</source>
                 <target>sichtbar</target>

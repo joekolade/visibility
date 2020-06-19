@@ -36,6 +36,7 @@ class CssController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 
   public function renderCssAction()
   {
+    var_dump(49218);
     // todo
   }
 }
