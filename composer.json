@@ -1,7 +1,7 @@
 {
   "name": "joekolade/visibility",
   "type": "typo3-cms-extension",
-  "description": "FSC responsive visibility helper tool for content elements.",
+  "description": "FSC responsive visibility helper tool for content elements. Make it possible to hide content elements for specific breakpoints.",
   "homepage": "https://github.com/joekolade/visibility",
   "license": "GPL-2.0-or-later",
   "authors": [
