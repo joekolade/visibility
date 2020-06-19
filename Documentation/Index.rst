@@ -1,60 +1,55 @@
-﻿.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
-
-.. include:: Includes.txt
+﻿.. include:: Includes.txt
 
 .. _start:
 
 =============================================================
-FSC Visbility
+Visibility
 =============================================================
 
-.. only:: html
+:Version:
+   |release|
 
-	:Classification:
-		visibility
+:Language:
+   en
 
-	:Version:
-		|release|
+:Authors:
+   Joe Schäfer
 
-	:Language:
-		en
+:Email:
+   joe@joekola.de
 
-	:Description:
-		FSC visibility helper tool for content elements.
+:License:
+		This document is published under GPL-2.0-or-later
 
-	:Keywords:
-		comma,separated,list,of,keywords
+{extension.description}
 
-	:Copyright:
-		2018
+**TYPO3**
 
-	:Author:
-		Joe Schäfer
+The content of this document is related to TYPO3 CMS,
+a GNU/GPL CMS/Framework available from `typo3.org <https://typo3.org/>`_ .
 
-	:Email:
-		j.schaefer@schaefer-webentwicklung.de
+**Community Documentation**
 
-	:License:
-		This document is published under the Open Content License
-		available from http://www.opencontent.org/opl.shtml
+This documentation is community documentation for the TYPO3 extension {extension.name}
 
-	:Rendered:
-		|today|
+It is maintained as part of this third party extension.
 
-	The content of this document is related to TYPO3,
-	a GNU/GPL CMS/Framework available from `www.typo3.org <http://www.typo3.org/>`_.
+If you find an error or something is missing, please:
+`Report a Problem <https://github.com/joekolade/visibility/issues/new>`__
 
-	**Table of Contents**
+**Extension Manual**
 
+This documentation is for the TYPO3 extension <visibility>.
+
+<!--
 .. toctree::
-	:maxdepth: 3
-	:titlesonly:
+   :maxdepth: 3
+   :titlesonly:
+
 
 	Introduction/Index
 	Administrator/Index
 	Configuration/Index
 	ToDoList/Index
 	Links
+-->

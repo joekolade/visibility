@@ -1,8 +1,9 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-  'title' => 'FSC Visbility',
-  'description' => 'FSC responsive visibility helper tool for content elements.',
+  'title' => 'FSC Visibility',
+  'name' => 'FSC Visibility',
+  'description' => 'FSC responsive visibility helper tool for content elements. Make it possible to hide content elements for specific breakpoints.',
   'category' => 'plugin',
   'author' => 'Joe Schäfer',
   'author_email' => 'joe@joekola.de',
@@ -10,7 +11,7 @@ $EM_CONF[$_EXTKEY] = [
   'uploadfolder' => 0,
   'createDirs' => '',
   'clearCacheOnLoad' => 0,
-  'version' => '2.0.1',
+  'version' => '2.0.2',
   'constraints' => [
     'depends' => [
       'typo3' => '8.7.0-10.4.99',
